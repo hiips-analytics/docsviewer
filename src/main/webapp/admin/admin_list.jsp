@@ -14,9 +14,9 @@
 		        <td>${doc.titre}</td>
 		        <td>${doc.auteur}</td>
 		       	<td>
-		            <a href="admin?action=edit&id=${doc.id}" class="btn btn-warning btn-sm">Modifier</a>
-		    		<a href="admin?action=delete&id=${doc.id}" class="btn btn-danger btn-sm">Supprimer</a>
-		    		<a href="details?id=${doc.id}" class="btn btn-info btn-sm text-white"><i class="fas fa-eye"></i> Voir</a>
+		       		<a href="details?id=${doc.id}" class="btn btn-info btn-sm text-white"><i class="fa-regular fa-eye"></i> </a>
+		            <a href="admin?action=edit&id=${doc.id}" class="btn btn-warning btn-sm"><i class="fas fa-pencil"></i> </a>
+		    		<a href="admin?action=delete&id=${doc.id}" class="btn btn-danger btn-sm"><i class="fa-regular fa-trash-can"></i></a>
 		    	</td>
 			</tr>
 		</c:forEach>

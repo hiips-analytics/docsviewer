@@ -13,7 +13,7 @@
                 <li class="nav-item"><a class="nav-link" href="accueil">Documents</a></li>
                 <li class="nav-item">
                     <a class="btn btn-outline-info btn-sm ms-lg-3" href="admin">
-                        <i class="fas fa-lock me-1"></i> Admin
+                        <i class="fas fa-lock me-1"></i> Gestion des documents
                     </a>
                 </li>
             </ul>
