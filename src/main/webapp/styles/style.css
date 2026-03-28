@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+.navbar-brand { font-weight: bold; color: #00d4ff !important; }
+.card { transition: transform 0.2s; }
+.card:hover { transform: scale(1.02); }
